@@ -270,5 +270,10 @@ button:hover{
   .meteroid-img {
     display: none;
   }
+    
+ .explore-section{
+    padding-left : 50px;
+    padding-right : 50px;
+ }
 }
 
