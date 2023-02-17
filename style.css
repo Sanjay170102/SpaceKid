@@ -201,6 +201,11 @@ button:hover{
     background-size: cover;
   }
 
+  .body-container{
+    justify-content: flex-start;
+    padding-top: 100px;
+  }
+
   .navbar-list {
     display: none;
   }
@@ -229,9 +234,12 @@ button:hover{
     z-index: -2;
   }
 
+  button{
+    margin-top:10px ;
+  }
+
   .index-heading {
     font-size: 35px;
-    padding: 30px;
   }
 
   .asteroid-img-exp-page {
@@ -246,13 +254,23 @@ button:hover{
     font-size: 20px;
     margin-bottom: 10px;
   }
+
+  .explore-section{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   .explore-heading-container{
     margin-bottom: 60px;
+    width: 300px;
+  }
+
+  .text-underline{
+    width: 200px;
   }
 
   .explore-section-heading{
     margin-top: 60px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   p {
@@ -260,7 +278,7 @@ button:hover{
   }
 
   .about-item{
-    width: 350px;
+    width: 300px;
     margin-bottom: 30px;;
   }
 
@@ -271,10 +289,4 @@ button:hover{
   .meteroid-img {
     display: none;
   }
-    
- .explore-section{
-    padding-left : 50px;
-    padding-right : 50px;
- }
 }
-
